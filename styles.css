@@ -1,0 +1,62 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.main-page {
+	margin: 0px;
+	width: 100%;
+	height: 100vh;
+	background-image: url('resources/images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* The Nav */
+nav {
+	position: absolute;
+	right: 5px;
+	top: 30px;
+	width: 10%;
+	height: auto;
+}
+
+/* The Nav */
+nav a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	transition: .4s;
+}
+
+nav a:hover {
+	border-left: 3px solid white;
+	padding-left: 6px;
+}
+
+/* The header */
+.header {
+	position: relative;
+	top: 200px;
+	left: 400px;
+	color: white;
+	width: 50%;
+	font-size: 120px;
+	font-weight: 600;
+}
+
+.border-header {
+	border-left: 6px solid white;
+	padding-left: 20px;
+}
+
+/*
+	The main content
+*/
+
+.main-content {
+	font-size: 20px;
+	padding: 40px;
+}
+
